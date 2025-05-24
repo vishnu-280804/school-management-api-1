@@ -2,9 +2,9 @@ const mysql = require('mysql2');
 require('dotenv').config();
 
 const db = mysql.createConnection({
-  host: 'localhost',
+  host: 'mysql.railway.internal',
   user: 'root',
-  password: 'root',
+  password: 'aVPSLvTrOnOKHMEnLRlhyiVleMKNwQUC',
   database: 'school_db'
 });
 
